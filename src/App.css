@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-Task {}
+
+.container-Task p {
+  color: black;
+  font-size: 25px;
+
+}
+
+.container-Task input {
+  border: none;
+  background: white;
+  padding: 11px;
+  font-size: 1rem;
+  transition: 0.5s ease;
+}
+
+.container-Task input:focus {
+
+  margin-right: 5px;
+  border: none;
+
+  transition: 0.35s;
+  outline: none !important;
+  transition: 0.5s;
+}
+
+.insee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg,
+      #00a6fb 0%,
+      #294872 25%,
+      #7395f5 51%,
+      #af7a89 100%);
+  animation: AnimateBG 6s ease infinite;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+.Form-Control {
+  border: none;
+  background: white;
+  padding: 20px;
+  font-size: 1rem;
+  transition: 0.5s ease;
+}
+
+.test:focus {
+  border: none;
+  transition: 0.5s;
+}
+
+.cont2 {}
+
+.card {
+  background-color: #D2E0BF !important;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  background-color: #cfdac1 !important;
+}
+
+.cont {
+  display: flex;
+
+}
+
+.card-group {
+  margin-left: 100px;
+
+}
+
+.CardB a,
+button {}
+
+.card a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 8px;
+  transition: 0.5s;
+  padding: 3px;
+  border: 3px solid #CDAFAA;
+}
+
+.card a:hover {}
+
+.card a:hover {
+  color: #3a6cf4 !important;
+  border-color: #3a6cf4;
+  border-radius: 13px;
+
+}
+
+.card button:hover {
+  color: #3a6cf4;
+  border-radius: 15px;
+
+}
+
+.card-group {
+  height: 80vh !important;
+  width: 80% !important;
+  border: 1px solid #ccc;
+  overflow: scroll;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.contat {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.card p {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.card button {
+  padding: 10px;
+  border: 3px solid #CDAFAA;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.card button {
+  margin-left: 100px !important;
+}
+
+.add {
+  margin-top: 15px;
+  margin-right: 79px;
+}
+
+.ADD1 {
+  color: white;
+  margin-top: 20px !important;
+  padding: 3 px;
+  display: flex;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.ADD1:hover {
+  color: black;
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+
+/* ADD ITEMS SECTION */
+.insertb button {
+  margin-left: 100px !important;
+}
+
+.CardB a {
+  display: inline-flex;
+  align-items: center !important;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 3px;
+}
